@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.tgz
+
+# Expo
+mobile/.expo/
+mobile/dist/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
